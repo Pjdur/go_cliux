@@ -12,6 +12,7 @@ func main() {
 	Label("Cliux", "error")
 	Label("Cliux", "info")
 	Section("Cliux", "Go is made by Google", 30)
+	Divider("0", 25)
 }
 
 func Boxed(text string, name string, width int) {
