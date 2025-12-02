@@ -42,3 +42,7 @@ func Section(content string, name string, width int) {
 	fmt.Println(strings.Repeat("-", width))
 	fmt.Println(content)
 }
+
+func Divider(style string,width int) {
+	fmt.Println(strings.Repeat(style, width))
+}
