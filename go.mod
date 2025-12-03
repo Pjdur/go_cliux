@@ -1,4 +1,5 @@
 module github.com/Pjdur/go_cliux
+
 go 1.25.4
 
 require github.com/fatih/color v1.18.0
