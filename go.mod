@@ -1,4 +1,4 @@
-module github.com/Pjdur/go-cliux
+module github.com/Pjdur/go_cliux
 
 go 1.25.4
 
