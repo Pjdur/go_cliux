@@ -80,10 +80,6 @@ Prints a horizontal divider using the specified `style` character, repeated for 
 - `style`: The character to use for the divider (e.g., "-", "0").
 - `width`: The length of the divider in characters.
 
-## Dependencies
-
-- [github.com/fatih/color](https://github.com/fatih/color) for colored output.
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
