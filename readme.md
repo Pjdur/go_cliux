@@ -1,4 +1,4 @@
-# go_cliux
+#   Cliux
 
 A simple Go library for enhancing command-line interface (CLI) user experience with styled boxes, colored labels, sections, and dividers.
 
@@ -22,7 +22,7 @@ go get github.com/Pjdur/go_cliux
 Import the library in your Go code:
 
 ```go
-import "github.com/Pjdur/go_cliux"
+import "github.com/Pjdur/cliux"
 ```
 
 ### Example
@@ -33,16 +33,16 @@ Here's a basic example demonstrating the functions:
 package main
 
 import (
-    "github.com/Pjdur/go_cliux"
+    "github.com/Pjdur/cliux"
 )
 
 func main() {
-    go_cliux.Boxed("Google made Go", "Cliux", 40)
-    go_cliux.Label("Cliux", "success")
-    go_cliux.Label("Cliux", "error")
-    go_cliux.Label("Cliux", "info")
-    go_cliux.Section("Cliux", "Go is made by Google", 30)
-    go_cliux.Divider("0", 25)
+    cliux.Boxed("Google made Go", "Cliux", 40)
+    cliux.Label("Cliux", "success")
+    cliux.Label("Cliux", "error")
+    cliux.Label("Cliux", "info")
+    cliux.Section("Cliux", "Go is made by Google", 30)
+    cliux.Divider("0", 25)
 }
 ```
 
