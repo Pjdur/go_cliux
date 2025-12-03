@@ -6,15 +6,6 @@ import (
 	"strings"
 )
 
-func main() {
-	Boxed("Google made Go", "Cliux", 40)
-	Label("Cliux", "success")
-	Label("Cliux", "error")
-	Label("Cliux", "info")
-	Section("Cliux", "Go is made by Google", 30)
-	Divider("0", 25)
-}
-
 func Boxed(text string, name string, width int) {
 	text = strings.TrimSpace(text)
 	name = strings.TrimSpace(name)
