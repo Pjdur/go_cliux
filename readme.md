@@ -22,7 +22,7 @@ go get github.com/Pjdur/go_cliux
 Import the library in your Go code:
 
 ```go
-import "github.com/Pjdur/cliux"
+import "github.com/Pjdur/go_cliux"
 ```
 
 ### Example
@@ -33,7 +33,7 @@ Here's a basic example demonstrating the functions:
 package main
 
 import (
-    "github.com/Pjdur/cliux"
+    "github.com/Pjdur/go_cliux"
 )
 
 func main() {

@@ -38,3 +38,9 @@ func Section(content string, name string, width int) {
 func Divider(style string,width int) {
 	fmt.Println(strings.Repeat(style, width))
 }
+
+func List(items []string) {
+	for i := 1; i <= len(items); i++ {
+    fmt.Println(i, ".", items[i-1])
+	}
+}
